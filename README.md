@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Desafío Tree Component
 
-## Getting Started
+Este proyecto fue desarrollado como parte del **Desafío React - Embryoxite**. Su objetivo principal es implementar una aplicación interactiva que permita la creación, visualización y manipulación de estructuras de datos en forma de árbol, aprovechando las capacidades de **React** y **TypeScript**.
 
-First, run the development server:
+## Introducción al Proyecto
+
+### Objetivos:
+
+1. **Diseño de un componente Tree reutilizable:**
+   - Capaz de representar estructuras jerárquicas con nodos y subnodos.
+   - Soporte para edición y visualización controlada mediante un modo editable.
+2. **Interacción dinámica:**
+   - Permitir agregar nuevos nodos en cualquier nivel del árbol.
+   - Eliminar nodos existentes manteniendo la consistencia estructural.
+3. **Persistencia de datos:**
+   - Almacenamiento y recuperación del árbol desde el **localStorage**, garantizando que las modificaciones persistan tras recargar la página.
+4. **Experiencia de usuario:**
+   - Incorporación de efectos visuales.
+   - Validación de formularios para garantizar la calidad de los datos ingresados.
+
+## Tecnologías / Herramientas Utilizadas 💻
+
+- **Next.js**
+- **Typescript**
+- **Tailwind.css**
+- **Shadcn**
+
+## Dependencias y Configuración 📖
+
+### 1. Clonar el Repositorio
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+$ git clone https://github.com/AgustinAraneo/Tree-Component.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Instalación de dependencias
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+$ pnpm i
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Ejecuta este comando para descargar todas las dependencias necesarias del proyecto.
 
-## Learn More
+## Despliegue 🚀
 
-To learn more about Next.js, take a look at the following resources:
+### Ejecución local
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+$ pnpm dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Esto levantará el proyecto en tu entorno local. Puedes acceder a la aplicación visitando:
 
-## Deploy on Vercel
+[http://localhost:3000](http://localhost:3000)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Autor 😎
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Desarrollado por:
+
+[@AgustinAraneo](https://github.com/AgustinAraneo)
